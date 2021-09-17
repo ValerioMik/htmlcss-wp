@@ -1,0 +1,88 @@
+/* generali */
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+}
+/* header */
+
+header{
+    /* regole debug */
+    background-color: rgb(211, 43, 226);
+}
+.logo{
+ height: 70px;
+ padding-right: 10px;
+ border-right:solid grey;
+}
+
+#mainnav ul{
+
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+.jumbotron{
+    height: 300px;
+    margin-top: 30px;
+    /* regole the bug */
+    background-color: rgb(247, 237, 101);
+    }
+
+/* main */
+
+    .nav{
+        height: 50px;
+        width:100%;
+        margin: 16px auto;
+        /* regolethebug */
+        background-color:  rgb(127, 178, 255);
+    }
+    
+
+/* widjet e articolo */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.widget{
+    float:left;
+    width: 20%;
+    height: 500px;
+    /* regole di debug */
+    background-color:  rgb(127, 178, 255) ;
+}
+
+.articolo{
+
+    float: left;
+    margin: 0 2%;
+    width: 56%;
+    height: 500px;
+    /* regole the bug */
+    background-color: rgb(127, 178, 255) ;
+
+}
+/* footer */
+
+footer{
+
+    height: 50px;
+    margin-top: 15px;
+    /* regolethebug */
+    background-color: rgb(152, 4, 250);
+}
+
