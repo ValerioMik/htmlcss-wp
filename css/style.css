@@ -33,7 +33,9 @@ header{
 a, .sottotit{
     text-decoration: none;
     color: rgb(228, 228, 228);
+
 }
+
 
 .jumbotron{
     height: 560px;
@@ -84,6 +86,17 @@ a, .sottotit{
     background-color:  rgb(127, 178, 255) ;
 }
 
+.sx{
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+   
+}
+
+.dx{
+    background-image: url(../img/img-3.jpg);
+    background-repeat: no-repeat;
+}
+
 .articolo{
 
     float: left;
@@ -91,7 +104,7 @@ a, .sottotit{
     width: 56%;
     height: 500px;
     /* regole the bug */
-    background-color: rgb(127, 178, 255) ;
+   background-image: url(../img/banner-2.jpg);
 
 }
 /* footer */
