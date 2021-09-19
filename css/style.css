@@ -82,19 +82,22 @@ a, .sottotit{
     float:left;
     width: 20%;
     height: 500px;
-    /* regole di debug */
-    background-color:  rgb(127, 178, 255) ;
+    border-radius: 15px;
+
 }
 
 .sx{
-    background-image: url(../img/img-1.jpg);
     background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
    
 }
 
 .dx{
-    background-image: url(../img/img-3.jpg);
+    
     background-repeat: no-repeat;
+    height: 300px;
+    
 }
 
 .articolo{
@@ -102,10 +105,15 @@ a, .sottotit{
     float: left;
     margin: 0 2%;
     width: 56%;
-    height: 500px;
-    /* regole the bug */
-   background-image: url(../img/banner-2.jpg);
+    height: 650px;
+    background-position-x: center;
+    border-radius: 15px;
 
+}
+
+.imgarticolo{
+    width: 100%;
+    height:300px ;
 }
 /* footer */
 
@@ -113,7 +121,10 @@ footer{
 
     height: 50px;
     margin-top: 15px;
-    /* regolethebug */
-    background-color: rgb(152, 4, 250);
+   
 }
 
+.footer{
+
+    text-align: center;
+}
