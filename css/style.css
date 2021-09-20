@@ -87,16 +87,18 @@ a, .sottotit{
 }
 
 .sx{
-    background-repeat: no-repeat;
+   
     height: 300px;
-    width: auto;
+    width: 100%;
+    object-fit: cover;
    
 }
 
 .dx{
     
-    background-repeat: no-repeat;
+    width: 100%;
     height: 300px;
+    object-fit: cover;
     
 }
 
@@ -114,6 +116,7 @@ a, .sottotit{
 .imgarticolo{
     width: 100%;
     height:300px ;
+    object-fit: cover;
 }
 /* footer */
 
